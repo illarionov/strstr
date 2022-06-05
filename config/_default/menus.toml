@@ -1,0 +1,14 @@
+# [[main]]
+# name = "About"
+# url = "#about"
+# weight = 1
+
+# [[main]]
+# name = "Posts"
+# url = "/posts/"
+# weight = 2
+
+[[main]]
+name = "Docs"
+url = "/docs/"
+weight = 3

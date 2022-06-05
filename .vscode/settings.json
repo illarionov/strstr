@@ -1,0 +1,11 @@
+{
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 90,
+    "rewrap.autoWrap.enabled": true,
+    "rewrap.reformat": true,
+    "cSpell.words": [
+      "Бойера",
+      "Морриса",
+      "препроцессинга"
+    ],
+}
