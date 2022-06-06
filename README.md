@@ -4,7 +4,7 @@
 
 Код для [strstr.0xdc.ru](https://strstr.0xdc.ru).
 
-Проект [Hugo] с темой [Eureka].
+Проект [Hugo] с темой [Book].
 
 ## Сборка
 
@@ -32,4 +32,4 @@ make serve # отладочный сервер
 Скорее всего, командой `make deploy`.
 
 [Hugo]: https://gohugo.io/
-[Eureka]: https://github.com/wangchucheng/hugo-eureka
+[Book]: https://github.com/alex-shpak/hugo-book

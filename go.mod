@@ -2,4 +2,4 @@ module module_name
 
 go 1.13
 
-require wangchucheng.com/hugo-eureka v0.9.1 // indirect
+require github.com/alex-shpak/hugo-book v0.0.0-20220426114310-4ef38f3bbf5d // indirect
