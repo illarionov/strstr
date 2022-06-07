@@ -7,8 +7,9 @@ indent_size = 2
 indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
-max_line_length = 90
+max_line_length = 120
 tab_width = 4
+ij_continuation_indent_size = 8
 
 # Markdown
 [{*.md, *.markdown}]
@@ -21,3 +22,11 @@ indent_size = 2
 
 [{Makefile, *.mk}]
 indent_style = tab
+
+[*.java]
+indent_size = 4
+ij_java_imports_layout = *, |, javax.**, java.**, |, $*
+
+[{*.gradle.kts,*.kt,*.kts,*.main.kts,*.space.kts}]
+indent_size = 4
+ij_kotlin_imports_layout = *, java.**, javax.**, kotlin.**, ^

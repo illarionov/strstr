@@ -1,12 +1,12 @@
 ---
-title: Двусторонний алгоритм 
+title: Двусторонний алгоритм
 description: Двусторонний алгоритм поиска подстроки в строке
 bookToc: true
 bookFlatSection: false
 date: 2022-05-24T09:32:31+03:00
 draft: false
 type: docs
-math: true q
+math: true
 aliases: [
   "/docs/twoway/"
 ]
@@ -1190,6 +1190,8 @@ internal fun computeMaxSuffixAndPeriod(pattern: String,
 }
 ```
 
+Она же в репозитории: [twoway.kt].
+
 ## Источники
 
 * CROCHEMORE, M., RYTTER, W., 1994, Text Algorithms, Oxford University Press. ([ссылка][Text-Algorithms])
@@ -1207,6 +1209,8 @@ internal fun computeMaxSuffixAndPeriod(pattern: String,
 [Wikipedia_TwoWay]: https://en.wikipedia.org/wiki/Two-way_string-matching_algorithm
 [Itmo_TwoWay]: http://neerc.ifmo.ru/wiki/index.php?title=%D0%94%D0%B2%D1%83%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D0%B9_%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC
 [Kutelin_clickhouse]: https://www.hse.ru/edu/vkr/296308510
+
+[twoway.kt]: {{< param BookRepo >}}/blob/main/code/src/main/kotlin/substring/TwoWay.kt
 
 [glibc]: https://github.com/bminor/glibc/blob/a01a13601c95f5d111d25557656d09fe661cfc89/string/strstr.c#L74
 [newlib]: https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/string/memmem.c;h=65267b9c5e52b15db86feec5b7a511d927ec469a;hb=HEAD#l112
