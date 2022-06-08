@@ -33,7 +33,7 @@ enableRobotsTXT = true
   BookRepo = 'https://github.com/illarionov/strstr'
   # BookCommitPath = 'commit'
   BookEditPath = 'edit/main'
-  BookDateFormat = '2006-01-23'
+  BookDateFormat = '2006-01-02'
   BookSearch = false
   BookComments = true
 

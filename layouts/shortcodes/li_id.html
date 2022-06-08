@@ -1,0 +1,3 @@
+<li {{ with .Get 0 }}id="{{ . }}" {{ end }}>
+{{- .Inner | .Page.RenderString -}}
+</li>
