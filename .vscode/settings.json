@@ -1,6 +1,6 @@
 {
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 90,
+    "editor.wordWrap": "off",
+    "editor.wordWrapColumn": 120,
     "rewrap.autoWrap.enabled": true,
     "rewrap.reformat": true,
     "cSpell.words": [
@@ -8,4 +8,13 @@
       "Морриса",
       "препроцессинга"
     ],
+    "rewrap.wrappingColumn": 90,
+    "editor.wrappingIndent": "same",
+    "[markdown]": {
+      "editor.wordWrap": "off",
+      "editor.wordWrapColumn": 90,
+      "rewrap.autoWrap.enabled": true,
+      "rewrap.reformat": true,
+      "rewrap.wrappingColumn": 90
+    }
 }
