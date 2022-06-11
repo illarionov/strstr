@@ -1,6 +1,7 @@
 baseURL = 'https://strstr.0xdc.ru/'
 title = 'Поиск подстроки в строке'
 languageCode = 'ru-ru'
+defaultContentLanguage = 'ru'
 
 # Book configuration
 disablePathToLower = false
