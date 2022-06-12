@@ -17,6 +17,3 @@ serve:
 
 validate:
 	hugo check
-
-deploy: build
-	rclone sync --interactive public/ yandex_s3://strstr.0xdc.ru
