@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "type": "command",
+      "name": "Build",
+      "program": "make",
+      "args": ["build"],
+    },
+    {
+      "type": "command",
+      "name": "Start and watch for changes",
+      "program": "make",
+      "args": ["serve"],
+    }
+
+  ]
+}
