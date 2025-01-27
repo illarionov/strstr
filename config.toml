@@ -7,7 +7,7 @@ defaultContentLanguage = 'ru'
 disablePathToLower = false
 enableGitInfo = true
 
-disableKinds = ['taxonomy', 'taxonomyTerm']
+disableKinds = ['taxonomy']
 relativeURLs = true
 
 enableRobotsTXT = true
