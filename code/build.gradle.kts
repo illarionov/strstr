@@ -2,7 +2,7 @@ import org.gradle.api.tasks.testing.logging.TestLogEvent
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.6.21"
+    kotlin("jvm") version "2.1.0"
     application
     jacoco
 }
@@ -14,7 +14,7 @@ repositories {
     mavenCentral()
 }
 
-val kotestVersion = "5.3.0"
+val kotestVersion = "5.9.1"
 dependencies {
     testImplementation(kotlin("test"))
     testImplementation("io.kotest:kotest-runner-junit5:$kotestVersion")
@@ -29,10 +29,6 @@ tasks.test {
         events = setOf(TestLogEvent.FAILED, TestLogEvent.PASSED, TestLogEvent.SKIPPED)
         showStandardStreams = true
     }
-}
-
-tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "11"
 }
 
 tasks.jacocoTestReport {

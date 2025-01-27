@@ -15,32 +15,32 @@ jobs:
 
     steps:
       - name: Checkout sources
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Validate Gradle wrapper
         uses: gradle/wrapper-validation-action@v1
 
-      - name: Setup Java 17
+      - name: Setup Java 23
         uses: actions/setup-java@v2
         with:
           distribution: 'temurin'
-          java-version: '17'
+          java-version: '23'
 
       - name: Build and test
-        uses: gradle/gradle-build-action@v2
+        uses: gradle/gradle-build-action@v3
         with:
           arguments: --stacktrace build
           build-root-directory: code/
           gradle-executable: code/gradlew
 
       - name: Publish test results
-        uses: EnricoMi/publish-unit-test-result-action@v1
+        uses: EnricoMi/publish-unit-test-result-action@v2
         if: always()
         with:
           files: code/build/test-results/**/*.xml
 
       - name: Upload test tesults
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: test-results
           if-no-files-found: error
