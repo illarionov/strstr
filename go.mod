@@ -1,5 +1,5 @@
 module module_name
 
-go 1.13
+go 1.23.5
 
-require github.com/alex-shpak/hugo-book v0.0.0-20220802105740-317ccae23b73 // indirect
+require github.com/alex-shpak/hugo-book v0.0.0-20241009212754-7c78a39c531a // indirect
