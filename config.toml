@@ -16,8 +16,17 @@ enableRobotsTXT = true
   changefreq = 'weekly'
 
 [markup]
-[markup.goldmark.renderer]
-  unsafe = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
+
 
 [markup.tableOfContents]
   startLevel = 1
